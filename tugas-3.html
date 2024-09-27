@@ -1,0 +1,29 @@
+<html>  
+<body>  
+  <script>  
+    let totalNovel = 0;  
+    document.write("Minggu 1: ");  
+    totalNovel += 3;  
+    document.write(totalNovel + "<br>");  
+
+    document.write("Minggu 2: ");  
+    totalNovel += 3;  
+    document.write(totalNovel + "<br>");  
+
+    document.write("Minggu 3: ");  
+    totalNovel += 3 + 1;  
+    totalNovel -= 1; // mengurangi 1 novel karena salah satu novel sudah dibaca  
+    document.write(totalNovel + "<br>");  
+
+    document.write("Minggu 4: ");  
+    totalNovel += 3;  
+    totalNovel += 1;
+    totalNovel += 2;
+    document.write(totalNovel + "<br>");  
+
+    document.write("Total novel yang dibaca: " + totalNovel + "<br>");  
+ 
+    document.write("Pembaca " + (totalNovel > 12 ? "cepat" : "perlu baca lebih banyak"));  
+  </script>  
+</body>  
+</html>
